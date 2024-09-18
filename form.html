@@ -10,18 +10,18 @@
     <p>
         <a href="index.html">home</a>
     </p>
-    
-   
+
+
 </center>
 
 <body>
     <form action="">
         <fieldset>
             <legend>your detail</legend>
-            <label for="">name <br></label>
-            <input type="text" name="name" required="required"></title><br>
+            <label for="">name<br></label>
+            <input type="name" name="name" required="required" placeholder="enter name"></title><br>
             <label for="">email <br></label>
-            <input type="text" name="email" required="required">
+            <input type="text" name="email" required="required" placeholder="enter email">
             <input type="submit" value="submit">
         </fieldset>
         <fieldset>
@@ -32,19 +32,48 @@
                     <option value="microsoft">microsoft</option>
                     <option value="firefox">firefox</option>
                 </select>
+            <p>what is you favourite game</p>
+            <select name="game" size="4" multiple="multiple">
+                <option value="pubg" selected="selected">pubg</option>
+                <option value="minecraft">minecraft</option>
+                <option value="palworld" selected="selected">palworld</option>
+                <option value="gta">gta</option>
+            </select>
             </p>
             <p>would you visit again ? <br>
                 <input type="radio" name="genre" value="yes" checked="checked">yes
                 <input type="radio" name="genre" value="no">no
                 <input type="radio" name="genre" value="maybe">maybe
             <p>comment</p>
-            <textarea name="" id="" maxlength="25"></textarea>
+            <textarea name="" id="" maxlength="25" placeholder="enter your comment"></textarea>
             <p>sign me up for email update <input type="checkbox" name="" value="" checked="checked"></p>
-            <p>submit review</p>
-            <input type="search" name="search"> <br>
-            <input type="submit" value="submit review">
+
+            <input type="text" name="name" placeholder="enter your comment">
+            <input type="file" name="usersong"><br>
+
+
+            <input type="image" src=" image/submit.jpg" width="100"><br>
         </fieldset>
+        <fieldset>
+            <legend>info</legend>
+            <label>age <b>:</b><input type="text" name="age" placeholder="enter your age" ></label> <input type="submit"> <br>
+            
+            <p> gender <b>:</b>
+                <input id="female" type="radio" name="gender" value="f">
+                <label for="female">female</label>
+                <input id="male" type="radio" name="gender" value="m" checked="checked">
+                <label for="male">male</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>date of birth</legend>
+            <input type="date" name="depart">
+            <input type="submit" value="submit">
+        </fieldset>
+
+
     </form>
+
 </body>
 
 </html>
